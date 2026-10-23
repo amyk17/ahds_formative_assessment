@@ -1,0 +1,23 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - conda=26.9.3
+  - setuptools
+  - pip
+  - wheel
+  - conda-anaconda-telemetry[version='>=0.3.0']
+  - conda-anaconda-tos[version='>=0.2.2']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - python.app
+  - anaconda-anon-usage
+  - anaconda-channel-guide
+  - anaconda-auth[version='>=0.15.1']
+  - gh
+  - r-base=4.4.1
+  - r-tidyverse=2.0.0
+prefix: /Users/amyknight/miniconda3
