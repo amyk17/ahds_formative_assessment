@@ -1,2 +1,7 @@
 rule all:
-"The default rule"
+  input:
+  "data/original/BMX_D.csv 
+  output:
+  "code/06_demo_merge.R"
+
+  
