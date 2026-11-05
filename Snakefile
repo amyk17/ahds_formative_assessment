@@ -1,0 +1,28 @@
+rule all:
+    input:
+    "logs/1.txt"
+    "logs/2.txt"
+
+rule check_bmx:
+    input:
+         "data/original/BMX_D.csv"
+    output:
+        "logs/1.txt"
+    shell:
+        cd code
+        bash 01_data_processing_bm.sh > ../logs/1.txt
+
+rule check_accel:
+    input:
+        "data/original/accel/accel-31128.txt"
+    output:
+        "logs/2.txt"
+    shell:
+        cd code
+        bash 02_data_processing_accel.sh > ../logs/2.txt
+    
+
+
+
+
+
