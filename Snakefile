@@ -1,6 +1,6 @@
 rule all:
     input:
-    "logs/1.txt"
+    "logs/1.txt",
     "logs/2.txt"
 
 rule check_bmx:
