@@ -1,0 +1,5 @@
+dir is: [../data/original]
+Checking all accel files have the same headings
+Number of unique headers in accel files:        0
+Accel files have inconsistent headers.
+Unique headers found across accel files:
