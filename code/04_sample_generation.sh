@@ -3,7 +3,7 @@
 ###This script is being used generate the sample file for this study from the accelerometer files and the body measures file
 
 ##Setting the working directory
-derived_data = "${1:-../data/derived}"
+derived_data="${1:-../data/derived}"
 echo "The working directory is: $derived_data"
 
 ##Make a copy of the body measures data and move to the derived folder
