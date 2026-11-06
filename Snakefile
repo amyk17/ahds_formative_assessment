@@ -45,7 +45,7 @@ rule fix_accel:
     shell:
         """
         cd code
-        bash 03_data_correcting_accel_bm.sh. > ..logs/3.txt
+        bash 03_data_correcting_accel.sh. > ..logs/3.txt
         """
 
 rule sample_gen:
