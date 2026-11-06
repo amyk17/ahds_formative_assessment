@@ -3,6 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(tools)
 library(readr)
+library(tidyverse)
 
 ###setting the working directory 
 setwd("/Users/amyknight/Documents/Uni/AHDS/Assessments/formative")
