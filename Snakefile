@@ -9,8 +9,10 @@ rule check_bmx:
     output:
         "logs/1.txt"
     shell:
+        """
         cd code
         bash 01_data_processing_bm.sh > ../logs/1.txt
+        """
 
 rule check_accel:
     input:
@@ -18,8 +20,10 @@ rule check_accel:
     output:
         "logs/2.txt"
     shell:
+        """
         cd code
         bash 02_data_processing_accel.sh > ../logs/2.txt
+        """
     
 
 
