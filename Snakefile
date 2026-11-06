@@ -1,11 +1,11 @@
 rule all:
     input:
-    "logs/1.txt",
-    "logs/2.txt"
+        "logs/1.txt",
+        "logs/2.txt"
 
 rule check_bmx:
     input:
-         "data/original/BMX_D.csv"
+        "data/original/BMX_D.csv"
     output:
         "logs/1.txt"
     shell:
