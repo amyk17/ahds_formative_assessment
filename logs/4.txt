@@ -1,0 +1,6 @@
+The working directory is: ../data/derived
+"PAXSTAT"	"PAXCAL"	"PAXDAY"	"PAXN"	"PAXHOUR"	"PAXMINUT"	"PAXINTEN"	"PAXSTEP"
+1	1	1	1	0	0	166	4
+1	1	1	2	0	1	27	0
+number of lines in the body measures file:     9951
+the number of participants with accel files:     7455

@@ -1,0 +1,20 @@
+datadir is: [../data/original/accel]
+Name of the first file in the accel folder: accel-31128.txt
+The first 10 lines of the first accel file:
+<ACTIGRAPH ID=31128>
+"PAXSTAT"	"PAXCAL"	"PAXDAY"	"PAXN"	"PAXHOUR"	"PAXMINUT"	"PAXINTEN"	"PAXSTEP"
+1	1	1	1	0	0	166	4
+1	1	1	2	0	1	27	0
+1	1	1	3	0	2	0	0
+1	1	1	4	0	3	276	4
+1	1	1	5	0	4	0	0
+1	1	1	6	0	5	0	0
+1	1	1	7	0	6	0	0
+1	1	1	8	0	7	0	0
+The fields of the first accel file:
+"PAXSTAT"	"PAXCAL"	"PAXDAY"	"PAXN"	"PAXHOUR"	"PAXMINUT"	"PAXINTEN"	"PAXSTEP"
+ The number of unique header lines in all accel files :        1
+The number of unique line counts in all accel files:      127
+New first line of accel files: "PAXSTAT"	"PAXCAL"	"PAXDAY"	"PAXN"	"PAXHOUR"	"PAXMINUT"	"PAXINTEN"	"PAXSTEP"
+The number of files with a unique header:        1
+The number of accel files containing NA as a data point:       64
